@@ -101,7 +101,10 @@ vendor.video.disable.ubwc=1
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.vendor.dpm.feature=0
+persist.vendor.dpm.feature=1 \
+persist.vendor.dpmhalservice.enable=1 \
+persist.vendor.dpm.loglevel=0 \
+persist.vendor.mwqem.enable=1
 
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
