@@ -28,7 +28,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Binder
 PRODUCT_PACKAGES += \
     libhwbinder \
-    libhwbinder.vendor
+    libhwbinder.vendor \
+    libhidltransport \
+    libhidltransport.vendor
 
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
