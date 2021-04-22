@@ -183,11 +183,12 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     memtrack.msm8953 \
     libdisplayconfig \
-	libvulkan \
     liboverlay \
     libqdMetaData.system \
     libgenlock \
-    libtinyxml
+    libtinyxml \
+    libvulkan \
+    vendor.display.config@1.0.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
